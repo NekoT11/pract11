@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="main.js" defer></script>
+     <link rel="stylesheet" href="style.css">
+    <title>Панель управления студентами</title>
+   
+</head>
+<body>
+   
+<div id="regForm2">
+    <h1>Добавление студента</h1>
+    <div id="regForm1">
+    <form id="regForm" action="">
+
+<input type="text" id="name" placeholder="Имя" required>
+<p class="error" id="p_name"></p>
+<input type="text" id="surname" placeholder="Фамилия" required>
+<p class="error" id="p_surname"></p>
+<input type="text" id="lastname" placeholder="Отчество">
+<p >Дата Рождения</p>
+<!-- <label for="start">Дата рождения</label> -->
+<input type="date" id="Bday" required>
+<p class="error" id="p_Bday"></p>
+<p >Дата поступления</p>
+<!-- <label for="start">Дата начала обучения</label> -->
+<input type="date" id="start_training" required>
+<p class="error" id="p_start_training"></p>
+<input type="text" id="facult" placeholder="Факультет" required>
+<p class="error" id="p_facult" ></p>
+
+<button id="addStudent">Добавить студента</button>
+
+    </form>
+    </div></div>
+</body>
+</html>
