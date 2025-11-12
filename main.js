@@ -3,11 +3,12 @@ import { addTable } from "./module/table.js"
 import { flag } from "./module/valid.js"
 import { add_element } from "./module/add_element.js";
 import { go_form } from "./module/go_form.js";
+import { search_surname } from "./module/search.js";
 
 
 let training = document.getElementById('start_training')
 let addStudent = document.getElementById('addStudent')
-
+let search_button = document.getElementById('search_button')
 
 
 
@@ -32,5 +33,11 @@ addTable()
 add_student_table.addEventListener('click', (add) => {
 
 go_form()
+
+})
+
+search_button.addEventListener('click', (add) => {
+add.preventDefault
+search_surname()
 
 })

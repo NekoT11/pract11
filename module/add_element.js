@@ -15,11 +15,18 @@ let addStudent = document.getElementById('addStudent')
 let student_table = document.getElementById('student_table')
 
 export let studentsArr = [];
+export let students = {
+        name,
+        surname,
+        lastname,
+        Bday,
+        start_training,
+        facult}
 
 export function add_element() {
     event.preventDefault()
     error()
-    let students = {
+    students = {
         name: name.value,
         surname: surname.value,
         lastname: lastname.value,
