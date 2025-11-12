@@ -23,6 +23,7 @@ let addStudent = document.getElementById('addStudent')
 addStudent.addEventListener('click', (add) => {
 
 add_element()
+addTable()
 
 
 
