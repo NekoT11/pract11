@@ -2,6 +2,8 @@ import { addTable } from "./module/table.js"
 // import { error } from "./module/valid.js"
 import { flag } from "./module/valid.js"
 import { add_element } from "./module/add_element.js";
+import { go_form } from "./module/go_form.js";
+
 
 let training = document.getElementById('start_training')
 let addStudent = document.getElementById('addStudent')
@@ -18,15 +20,16 @@ let addStudent = document.getElementById('addStudent')
 
 
 
-
-
-
-
-
 addStudent.addEventListener('click', (add) => {
 
 add_element()
 
 
+
+})
+
+add_student_table.addEventListener('click', (add) => {
+
+go_form()
 
 })

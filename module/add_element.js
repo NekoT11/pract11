@@ -12,6 +12,7 @@ let Bday = document.getElementById('Bday')
 let start_training = document.getElementById('start_training')
 let facult = document.getElementById('facult')
 let addStudent = document.getElementById('addStudent')
+let student_table = document.getElementById('student_table')
 
 export let studentsArr = [];
 
@@ -28,11 +29,13 @@ export function add_element() {
 
     }
     // console.log(flag);
+// console.log(event);
 
     if (flag == true) {
         studentsArr.push(students)
         console.log(studentsArr)
         regForm2.style.display = 'none'
+        student_table.style.display ='flex'
 
     }
 
